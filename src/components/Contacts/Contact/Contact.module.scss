@@ -1,0 +1,33 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.leftContainer {
+  align-items: center;
+  display: flex;
+}
+
+.imageContainer {
+  border-radius: 50%;
+  height: 50px;
+  margin-left: 15px;
+  overflow: hidden;
+  width: 50px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.actionContainer > button {
+  margin-right: 15px;
+}
